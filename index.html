@@ -1,0 +1,382 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>HTML email template</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            background-color: #cccccc;
+        }
+
+        table {
+            border-spacing: 0;
+        }
+
+        td {
+            padding: 0;
+        }
+
+        img {
+            border: 0;
+        }
+
+        .wrapper {
+            width: 100%;
+            table-layout: fixed;
+            background-color: #cccccc;
+        }
+
+        .main {
+            background-color: #ffffff;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 600px;
+            border-spacing: 0;
+            font-family: sans-serif;
+            color: #171a1b;
+        }
+
+        .two-columns {
+            text-align: center;
+            font-size: 0;
+        }
+
+        .two-columns .column {
+            width: 100%;
+            max-width: 300px;
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+        }
+
+        .card-heading {
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .three-column {
+            text-align: center;
+            font-size: 0;
+            padding: 15px 0 25px;
+        }
+
+        .three-column .column {
+            width: 100%;
+            max-width: 200px;
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+        }
+
+        .three-column .padding {
+            padding: 15px;
+        }
+
+        .three-column .content {
+            font-size: 15px;
+            line-height: 20px;
+            padding: 0 5px;
+        }
+
+        .two-columns.last {
+            padding: 15px 0;
+        }
+
+        .two-columns .padding {
+            padding: 20px;
+        }
+
+        .two-columns .content {
+            font-size: 15px;
+            line-height: 20px;
+            text-align: left;
+        }
+
+        .button {
+            background-color: #ffffff;
+            color: #171a1b;
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .button-dark {
+            color: #ffffff;
+            background-color: #171a1b;
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<center class="wrapper">
+    <table class="main" width="100%">
+
+        <!-- top border -->
+        <tr>
+            <td height="8" style="background-color: #171a1b"></td>
+        </tr>
+
+        <!-- logo section -->
+        <tr>
+            <td style="padding: 14px 0 4px">
+                <table width="100%">
+                    <tr>
+                        <td class="two-columns">
+                            <table class="column">
+                                <tr>
+                                    <td style="padding: 0 62px 10px">
+                                        <a href="https://www.seznam.cz">
+                                            <img src="https://img.freepik.com/free-vector/modern-holographic-text-effect_331749-428.jpg?w=740&t=st=1683665645~exp=1683666245~hmac=9a5f9bd580ee5709eaedf32900ff3e3375aeac849c1359b81da63466ba8fb3ee"
+                                                 alt="text_modern" width="180" title="Modern Logo"/>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <table class="column">
+                                <tr>
+                                    <td style="padding: 30px 72px ">
+                                        <a href="https://www.facebook.com" style="margin-right: 6px">
+                                            <img src="https://cdn-icons-png.flaticon.com/512/59/59439.png?w=360&t=st=1683666416~exp=1683667016~hmac=5f58f492a35c209ae2dfe127ecba2a3a591a15d45c3550b0c4bc49b63a6fe943"
+                                                 alt="facebook_icon" width="30"/>
+                                        </a>
+                                        <a href="https://www.twitter.com" style="margin-right: 6px">
+                                            <img src="https://cdn-icons-png.flaticon.com/512/39/39552.png?w=360&t=st=1683666157~exp=1683666757~hmac=50162d235e4a8564b315226bf5caf963f7928c7b97d913c2e30e244b9a4eba32"
+                                                 alt="twitter_icon" width="30"/>
+                                        </a>
+                                        <a href="https://www.instagram.com" style="margin-right: 6px">
+                                            <img src="https://cdn-icons-png.flaticon.com/512/1216/1216929.png?w=360&t=st=1683667503~exp=1683668103~hmac=17800fd699bf8e68542f04cc4f31bca1f84127a44df8d92c3a53484a6af81f42"
+                                                 alt="ig_icon" width="30"/>
+                                        </a>
+                                        <a href="https://www.linkedin.com" style="margin-right: 6px">
+                                            <img src="https://cdn-icons-png.flaticon.com/512/25/25325.png?w=360&t=st=1683666347~exp=1683666947~hmac=c0b1d4320791c2485514449d86ac39208bfc10c820d6f06def10a160df2b2636"
+                                                 alt="linkedin_icon" width="30"/>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!-- banner image -->
+        <tr>
+            <td>
+                <a>
+                    <img src="https://img.freepik.com/free-vector/professional-website-banner-with-abstract-red-shapes_1361-1812.jpg?w=826&t=st=1683667996~exp=1683668596~hmac=7aa3e0186579e6ab9d41e69e379a200c06b8821689a835ab20667fb71d1b1c9c"
+                         alt="banner_image" width="600" style="max-width: 100%"/>
+                </a>
+            </td>
+        </tr>
+
+        <!-- three column section -->
+        <tr>
+            <td>
+                <table width="100%">
+                    <tr>
+                        <td class="three-column">
+
+                            <table class="column">
+                                <tr>
+                                    <td class="padding">
+
+                                        <table class="content">
+                                            <tr>
+                                                <td>
+                                                    <a href="#">
+                                                        <img src="https://cdn-icons-png.flaticon.com/512/481/481659.png?w=360&t=st=1683668573~exp=1683669173~hmac=6b415e988d3af82d69ab1f0b14ef495a60a2ca9a50e751c7cc378a5bc6ac1330"
+                                                             alt="envelope" width="130" style="max-width: 130px"/>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p class="card-heading">Ecommerce</p>
+                                                    <p>Responsive HTML Email Template Course to master this skill</p>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <table class="column">
+                                <tr>
+                                    <td class="padding">
+
+                                        <table class="content">
+                                            <tr>
+                                                <td>
+                                                    <a href="#">
+                                                        <img src="https://cdn-icons-png.flaticon.com/512/118/118029.png?w=360&t=st=1683668984~exp=1683669584~hmac=5ae7150c62e97393d14827fbeafe9fd819a57663860578eba70fa8172120fcd5"
+                                                             alt="faders" width="130" style="max-width: 130px"/>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p class="card-heading">Web Design</p>
+                                                    <p>Responsive HTML Email Template Course to master this skill</p>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <table class="column">
+                                <tr>
+                                    <td class="padding">
+
+                                        <table class="content">
+                                            <tr>
+                                                <td>
+                                                    <a href="#">
+                                                        <img src="https://cdn-icons-png.flaticon.com/512/94/94677.png?w=360&t=st=1683669085~exp=1683669685~hmac=5e8b315874d2b6cafd2f3f978c85283fd9c3c7e6039968ebb9725057104fbf7b"
+                                                             alt="house" width="130" style="max-width: 130px"/>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p class="card-heading">HTML Email</p>
+                                                    <p>Responsive HTML Email Template Course to master this skill</p>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!-- two column section -->
+        <tr>
+            <td style="background-color: #26292b; color: #ffffff;">
+                <table width="100%">
+
+                    <tr>
+                        <td class="two-columns last">
+
+                            <table class="column">
+                                <tr>
+                                    <td class="padding">
+
+                                        <table class="content">
+                                            <tr>
+                                                <td>
+                                                    <a href="#">
+                                                        <img src="https://img.freepik.com/free-photo/close-up-laptop-keyboard-colorful-neon-illumination-backlit-keyboard_169016-29230.jpg?w=740&t=st=1683669944~exp=1683670544~hmac=034b2e144323edc8b7d7ba6a070d05176b6bcc7347656c1847a8ea5ec5c33eca"
+                                                             alt="keybord" width="260" style="max-width: 260px"/>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <table class="column">
+                                <tr>
+                                    <td class="padding">
+
+                                        <table class="content">
+                                            <tr>
+                                                <td>
+                                                    <p class="card-heading">Create Custom Designs</p>
+                                                    <p style="padding-bottom: 16px">Over the years we have to build up a
+                                                        massive portfolio our client website and email designs.</p>
+                                                    <a href="#" class="button">Read more</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </td>
+                    </tr>
+
+
+                </table>
+            </td>
+        </tr>
+
+        <!-- title, text & button -->
+        <tr>
+            <td style="padding: 15px 0 50px">
+                <table width="100%">
+                    <tr>
+                        <td style="text-align: center; padding: 15px">
+                            <p style="font-weight: bold; font-size: 20px">HTML Email Template Course</p>
+                            <p style="line-height: 23px; font-size: 15px; padding: 5px 0 15px">Responsive HTML Email Templates that you can build around. Responsive HTML Email
+                                Templates that you can build around. Responsive HTML Email Templates that you can build
+                                around. Responsive HTML Email Templates that you can build
+                                around.</p>
+                            <a href="#" class="button-dark">View Course</a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!-- footer section -->
+        <tr>
+            <td style="background-color: #26292b">
+                <table width="100%">
+
+                    <tr>
+                       <td style="text-align: center; padding: 45px 20px; color: #ffffff">
+                           <a href="#">
+                               <img src="https://img.freepik.com/free-vector/modern-holographic-text-effect_331749-428.jpg?w=740&t=st=1683665645~exp=1683666245~hmac=9a5f9bd580ee5709eaedf32900ff3e3375aeac849c1359b81da63466ba8fb3ee"
+                                    alt="text_modern" width="180"/>
+                           </a>
+                           <p style="padding: 10px">Modern HTML Email</p>
+                           <p style="padding: 10px">Narodni trida 1, Prague, Czech Republic</p>
+                           <a href="https://www.facebook.com" style="margin-right: 6px; font-size: 0">
+                               <img src="https://cdn-icons-png.flaticon.com/512/59/59439.png?w=360&t=st=1683666416~exp=1683667016~hmac=5f58f492a35c209ae2dfe127ecba2a3a591a15d45c3550b0c4bc49b63a6fe943"
+                                    alt="facebook_icon" width="30"/>
+                           </a>
+                           <a href="https://www.twitter.com" style="margin-right: 6px; font-size: 0">
+                               <img src="https://cdn-icons-png.flaticon.com/512/39/39552.png?w=360&t=st=1683666157~exp=1683666757~hmac=50162d235e4a8564b315226bf5caf963f7928c7b97d913c2e30e244b9a4eba32"
+                                    alt="twitter_icon" width="30"/>
+                           </a>
+                           <a href="https://www.instagram.com" style="margin-right: 6px; font-size: 0">
+                               <img src="https://cdn-icons-png.flaticon.com/512/1216/1216929.png?w=360&t=st=1683667503~exp=1683668103~hmac=17800fd699bf8e68542f04cc4f31bca1f84127a44df8d92c3a53484a6af81f42"
+                                    alt="ig_icon" width="30"/>
+                           </a>
+                           <a href="https://www.linkedin.com" style="margin-right: 6px; font-size: 0">
+                               <img src="https://cdn-icons-png.flaticon.com/512/25/25325.png?w=360&t=st=1683666347~exp=1683666947~hmac=c0b1d4320791c2485514449d86ac39208bfc10c820d6f06def10a160df2b2636"
+                                    alt="linkedin_icon" width="30"/>
+                           </a>
+                           <p style="padding: 10px">SUBSCRIBE</p>
+                       </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+
+    </table>
+</center>
+
+</body>
+</html>
